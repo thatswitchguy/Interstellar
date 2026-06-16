@@ -822,12 +822,6 @@
     "categories": ["all"]
   },
   {
-    "name": "Bitlife",
-    "link": "https://xlegends.github.io/bitlife/",
-    "image": "/assets/media/icons/bitlife.webp",
-    "categories": ["all"]
-  },
-  {
     "name": "BTD 4",
     "link": "https://en.gameslol.net/data/bloons-td-4/index.html",
     "image": "/assets/media/icons/btd4.webp",
