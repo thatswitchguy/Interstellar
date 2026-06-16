@@ -1,0 +1,13 @@
+modules = ["bun-1.1", "nodejs-16", "web"]
+run = ["bun start"]
+
+[agent]
+expertMode = true
+
+[nix]
+channel = "stable-25_05"
+
+[[ports]]
+localPort = 8080
+externalPort = 80
+exposeLocalhost = true
