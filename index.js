@@ -94,6 +94,12 @@ app.get("/e/*", async (req, res, next) => {
   }
 });
 
+app.use((_req, res, next) => {
+  res.setHeader("Content-Security-Policy", "frame-ancestors *");
+  res.removeHeader("X-Frame-Options");
+  next();
+});
+
 app.use(cookieParser());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));

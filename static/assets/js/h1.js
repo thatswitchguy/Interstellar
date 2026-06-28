@@ -169,8 +169,8 @@ document.addEventListener("DOMContentLoaded", event => {
 const SplashT = [
   "Over 8 Million Users since 2023",
   "Fastest growing proxy server",
-  "Made by xBubbo",
-  "Check out discord.gg/interstellar :)",
+  "Hosted by thatswitchguy",
+  "Check out discord.gg/",
   "Thanks for using the site",
   "Follow us on Tiktok (@useinterstellar)",
   "Subscribe to us on YouTube (@unblocking)",
